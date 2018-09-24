@@ -1,15 +1,13 @@
 # Base 16 Heetch Scheme #
 Base16 Heetch scheme.  Dark colours only (currently).
 
-## Usage ##
+This is designed to be used with the Base16 theme building project: https://github.com/chriskempson/base16
 
-I've created a PR to have this repository included in the main Base16 project (https://github.com/chriskempson/base16), but until then you'll need to follow these steps:
-
-### Building the theme ###
+## Building the theme ##
 
 There are multiple build tools for Base16.  I'll document only the Go and Elixir based versions here.
 
-#### base16-builder-go
+### base16-builder-go
 
 Assuming you already have a working Go development environment, issue the following command to get the builFinally we're ready to build our themes:
 
@@ -43,7 +41,7 @@ Finally we're ready to build our themes:
 base16-builder-go build
 ```
 
-#### base16-builder-elixir
+### base16-builder-elixir
 First grab the source code:
 
 ```sh
